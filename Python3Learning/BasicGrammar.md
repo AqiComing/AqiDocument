@@ -125,4 +125,5 @@ s.update( x )
 thisset.update({1,3})
 
 #移除元素
-s.remove(x)
+s.remove(x)当没有元素时，会报错
+s.discard( x )没哟元素时，不会报错
